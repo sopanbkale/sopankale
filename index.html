@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sopan Kale | Accounts Executive & Finance Operations Specialist</title>
+  <meta name="description" content="Portfolio of Sopan Kale - Experienced Accounts Executive specializing in MIS Reporting, TDS & GST Compliance, P2P Accounting, Odoo, Tally Prime, and Ledger Reconciliations." />
+  <meta property="og:title" content="Sopan Kale | Accounts Executive Portfolio" />
+  <meta property="og:description" content="Professional portfolio of Sopan Kale, Accounts Executive with 3 years of experience in MIS, Taxation, and ERP Financial Operations." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --primary-light: #1e293b;
+      --secondary: #1d4ed8;
+      --secondary-hover: #1e40af;
+      --accent: #0284c7;
+      --accent-soft: #e0f2fe;
+      --bg-body: #f8fafc;
+      --bg-surface: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+      --card-shadow-hover: 0 12px 30px -4px rgba(15, 23, 42, 0.1);
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    .navbar {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      transition: all 0.3s ease;
+    }
+    .navbar.scrolled {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+    .nav-link {
+      font-weight: 500;
+      color: var(--text-muted);
+      padding: 0.5rem 1rem !important;
+      transition: color 0.2s ease;
+    }
+    .nav-link:hover, .nav-link.active {
+      color: var(--secondary) !important;
+    }
+    .hero-section {
+      padding: 7rem 0 4.5rem;
+      background: linear-gradient(180deg, #f1f5f9 0%, #f8fafc 100%);
+      position: relative;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #eff6ff;
+      color: var(--secondary);
+      border: 1px solid #bfdbfe;
+      padding: 0.35rem 0.9rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+    .profile-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 1.25rem;
+      box-shadow: var(--card-shadow);
+      padding: 1.5rem;
+    }
+    .profile-img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      object-position: center 15%;
+      border-radius: 1rem;
+    }
+    .stat-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 1rem;
+      padding: 1.25rem;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .stat-box:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--card-shadow-hover);
+    }
+    .stat-number {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--secondary);
+      line-height: 1.2;
+    }
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .section-title {
+      font-weight: 800;
+      font-size: 2.25rem;
+      color: var(--primary);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 650px;
+      margin-bottom: 3rem;
+    }
+    .feature-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 1rem;
+      padding: 1.75rem;
+      height: 100%;
+      transition: all 0.25s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--card-shadow-hover);
+      border-color: #cbd5e1;
+    }
+    .icon-badge {
+      width: 48px;
+      height: 48px;
+      border-radius: 0.75rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      background: var(--accent-soft);
+      color: var(--accent);
+      margin-bottom: 1.25rem;
+    }
+    .skill-tag {
+      display: inline-block;
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 0.825rem;
+      font-weight: 500;
+      padding: 0.35rem 0.75rem;
+      border-radius: 0.5rem;
+      margin: 0.2rem;
+      border: 1px solid #e2e8f0;
+      transition: all 0.2s ease;
+    }
+    .skill-tag:hover {
+      background: #e2e8f0;
+      color: var(--primary);
+    }
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 10px;
+      bottom: 10px;
+      width: 2px;
+      background: #e2e8f0;
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 2.5rem;
+    }
+    .timeline-dot {
+      position: absolute;
+      left: -2rem;
+      top: 5px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--secondary);
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.2);
+    }
+    .timeline-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 1rem;
+      padding: 1.75rem;
+      box-shadow: var(--card-shadow);
+      transition: all 0.25s ease;
+    }
+    .timeline-card:hover {
+      box-shadow: var(--card-shadow-hover);
+      border-color: #cbd5e1;
+    }
+    .project-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 1rem;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      box-shadow: var(--card-shadow);
+      transition: all 0.25s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--card-shadow-hover);
+    }
+    .contact-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-bottom: 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s ease;
+    }
+    .contact-card:hover {
+      border-color: var(--secondary);
+      background: #f8fafc;
+      transform: translateX(4px);
+    }
+    .btn-primary-custom {
+      background-color: var(--secondary);
+      color: #fff;
+      font-weight: 600;
+      padding: 0.75rem 1.6rem;
+      border-radius: 0.65rem;
+      border: none;
+      transition: all 0.2s ease;
+    }
+    .btn-primary-custom:hover {
+      background-color: var(--secondary-hover);
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(29, 78, 216, 0.25);
+    }
+    .btn-secondary-custom {
+      background-color: #fff;
+      color: var(--primary);
+      border: 1px solid var(--border-color);
+      font-weight: 600;
+      padding: 0.75rem 1.6rem;
+      border-radius: 0.65rem;
+      transition: all 0.2s ease;
+    }
+    .btn-secondary-custom:hover {
+      background-color: #f1f5f9;
+      border-color: #cbd5e1;
+      color: var(--primary);
+    }
+    .scroll-top-btn {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .scroll-top-btn.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+      #resumePrintArea, #resumePrintArea * {
+        visibility: visible;
+      }
+      #resumePrintArea {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark" href="#home">
+        <span class="d-inline-flex align-items-center justify-content-center bg-primary text-white rounded-3 px-2 py-1 fs-6">SK</span>
+        <span>Sopan Kale</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-3"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Key Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-2">
+          <button class="btn btn-sm btn-outline-secondary d-flex align-items-center gap-1 px-3 py-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#resumeModal">
+            <i class="bi bi-file-earmark-text"></i> View Resume
+          </button>
+          <a href="#contact" class="btn btn-sm btn-primary px-3 py-2 fw-semibold">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <div class="hero-badge">
+            <i class="bi bi-shield-check text-primary"></i> 3+ Years Financial & Accounting Experience
+          </div>
+          <h1 class="display-4 fw-extrabold text-dark mb-3 tracking-tight">
+            Hi, I'm <span class="text-primary">Sopan Kale</span>
+          </h1>
+          <h2 class="h3 fw-semibold text-secondary mb-3">
+            Accounts Executive & Financial Operations Specialist
+          </h2>
+          <p class="lead text-muted mb-4 pe-lg-4">
+            Hands-on professional specializing in <strong>MIS Reporting</strong>, <strong>TDS Working</strong>, <strong>Accounts Payable & Receivable (AP/AR)</strong>, <strong>GST Compliance</strong>, and <strong>Procure-to-Pay (P2P)</strong> cycles. Proficient in <strong>Odoo Accounting</strong>, <strong>Tally Prime</strong>, and Advanced <strong>MS Excel</strong>.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mb-5">
+            <a href="#experience" class="btn btn-primary-custom d-inline-flex align-items-center gap-2">
+              <span>View Experience</span>
+              <i class="bi bi-arrow-down-short fs-5"></i>
+            </a>
+            <button class="btn btn-secondary-custom d-inline-flex align-items-center gap-2" data-bs-toggle="modal" data-bs-target="#resumeModal">
+              <i class="bi bi-file-earmark-arrow-down"></i>
+              <span>Download / View Resume</span>
+            </button>
+            <a href="#contact" class="btn btn-secondary-custom d-inline-flex align-items-center gap-2">
+              <i class="bi bi-envelope"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick Metrics -->
+          <div class="row g-3">
+            <div class="col-6 col-sm-3">
+              <div class="stat-box">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-box">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Companies</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-box">
+                <div class="stat-number">MBA</div>
+                <div class="stat-label">Finance Degree</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-box">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Statutory Accuracy</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="profile-card">
+            <img src="./src/assets/images/sopan_kale_profile_1791126226562.jpg" alt="Sopan Kale - Accounts Executive" class="profile-img shadow-sm" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80'">
+            <div class="mt-3 pt-2 border-top">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="text-muted small"><i class="bi bi-geo-alt-fill text-danger me-1"></i> Shevgaon, Ahilyanagar</span>
+                <span class="badge bg-success-subtle text-success border border-success-subtle px-2 py-1 rounded-pill small">Available for Opportunities</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-muted small"><i class="bi bi-briefcase-fill text-primary me-1"></i> Current: PHN Technology</span>
+                <a href="https://www.linkedin.com/in/sopan-baban37b919292/" target="_blank" rel="noopener noreferrer" class="text-primary text-decoration-none small fw-semibold">
+                  <i class="bi bi-linkedin me-1"></i> LinkedIn Profile
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="py-5" id="about">
+    <div class="container py-4">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <span class="text-uppercase text-secondary fw-bold small tracking-wider">Professional Profile</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle mx-auto">Committed Accounts Executive with a strong background in corporate finance, taxation, and financial workflow management.</p>
+        </div>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-7">
+          <div class="feature-card">
+            <h4 class="fw-bold mb-3 text-dark">Executive Summary</h4>
+            <p class="text-muted mb-3">
+              Accounts Executive with 3 years of hands-on experience in <strong>MIS Reporting</strong>, <strong>TDS Working</strong>, <strong>Accounts Payable (AP)</strong>, <strong>Accounts Receivable (AR)</strong>, <strong>Creditors & Debtors Reconciliation</strong>, <strong>Bank Reconciliation</strong>, <strong>Payroll & Salary Sheet Preparation</strong>, <strong>Ledger Mapping</strong>, <strong>GST Compliance</strong>, <strong>Procure-to-Pay (P2P/PTP)</strong>, and <strong>Month-End Closing</strong>.
+            </p>
+            <p class="text-muted mb-4">
+              Experienced in payment processing, vendor and customer account reconciliation, financial reporting, ledger management, and audit documentation. Proven ability to ensure statutory compliance across GST returns (GSTR-1, 3B, 2B) and TDS provisions while maintaining high accuracy in financial records.
+            </p>
+            <h5 class="fw-bold mb-3 text-dark">Core Soft Skills</h5>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Analytical & Problem-Solving</span>
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Communication & Coordination</span>
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Team Collaboration</span>
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Attention to Detail</span>
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Time Management</span>
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Task Prioritization</span>
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Quick Learner</span>
+              <span class="skill-tag"><i class="bi bi-check2 text-primary me-1"></i> Adaptability</span>
+            </div>
+            <h5 class="fw-bold mb-2 text-dark">Languages Known</h5>
+            <div class="d-flex gap-3 text-muted">
+              <span><i class="bi bi-translate text-secondary me-1"></i> English</span>
+              <span><i class="bi bi-translate text-secondary me-1"></i> Marathi</span>
+              <span><i class="bi bi-translate text-secondary me-1"></i> Hindi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="feature-card bg-light border-0">
+            <h4 class="fw-bold mb-4 text-dark">Quick Facts</h4>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-3 d-flex align-items-start gap-3">
+                <div class="icon-badge p-2 mb-0" style="width:36px; height:36px; font-size:1rem;"><i class="bi bi-person-badge"></i></div>
+                <div>
+                  <div class="small text-muted fw-semibold">Current Designation</div>
+                  <div class="fw-bold text-dark">Account Executive</div>
+                </div>
+              </li>
+              <li class="mb-3 d-flex align-items-start gap-3">
+                <div class="icon-badge p-2 mb-0" style="width:36px; height:36px; font-size:1rem;"><i class="bi bi-buildings"></i></div>
+                <div>
+                  <div class="small text-muted fw-semibold">Current Employer</div>
+                  <div class="fw-bold text-dark">PHN Technology Pvt. Ltd, Pune</div>
+                </div>
+              </li>
+              <li class="mb-3 d-flex align-items-start gap-3">
+                <div class="icon-badge p-2 mb-0" style="width:36px; height:36px; font-size:1rem;"><i class="bi bi-mortarboard"></i></div>
+                <div>
+                  <div class="small text-muted fw-semibold">Highest Qualification</div>
+                  <div class="fw-bold text-dark">MBA in Finance (IMSCDR)</div>
+                </div>
+              </li>
+              <li class="mb-3 d-flex align-items-start gap-3">
+                <div class="icon-badge p-2 mb-0" style="width:36px; height:36px; font-size:1rem;"><i class="bi bi-cpu"></i></div>
+                <div>
+                  <div class="small text-muted fw-semibold">ERP & Software</div>
+                  <div class="fw-bold text-dark">Odoo, Tally Prime / ERP 9, Excel</div>
+                </div>
+              </li>
+              <li class="mb-3 d-flex align-items-start gap-3">
+                <div class="icon-badge p-2 mb-0" style="width:36px; height:36px; font-size:1rem;"><i class="bi bi-geo-alt"></i></div>
+                <div>
+                  <div class="small text-muted fw-semibold">Location</div>
+                  <div class="fw-bold text-dark">Shevgaon Dist. Ahilyanagar – 414502</div>
+                </div>
+              </li>
+            </ul>
+            <div class="p-3 bg-white rounded-3 border">
+              <div class="small text-muted mb-1">Direct Contact Email</div>
+              <div class="fw-bold text-primary text-break">Sopanbkale101@gmail.com</div>
+              <div class="small text-muted mt-2 mb-1">Direct Contact Phone</div>
+              <div class="fw-bold text-dark">+91 8554909166</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="py-5 bg-white border-top border-bottom" id="skills">
+    <div class="container py-4">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <span class="text-uppercase text-secondary fw-bold small tracking-wider">Capabilities</span>
+          <h2 class="section-title">Technical & Professional Skills</h2>
+          <p class="section-subtitle mx-auto">Comprehensive domain expertise built across three years of corporate accounting and auditing.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- 1. Financial Accounting & Operations -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-cash-coin"></i></div>
+            <h5 class="fw-bold text-dark mb-2">Accounting & Operations</h5>
+            <p class="text-muted small mb-3">Core operational finance covering ledger integrity, payables, receivables, and cash flow governance.</p>
+            <div class="d-flex flex-wrap">
+              <span class="skill-tag">Accounts Payable (AP)</span>
+              <span class="skill-tag">Accounts Receivable (AR)</span>
+              <span class="skill-tag">Procure-to-Pay (P2P/PTP)</span>
+              <span class="skill-tag">Creditors Reconciliation</span>
+              <span class="skill-tag">Debtors Reconciliation</span>
+              <span class="skill-tag">Bank Reconciliation</span>
+              <span class="skill-tag">Payment Processing</span>
+              <span class="skill-tag">Vendor Payments</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Taxation & Regulatory Compliance -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-file-earmark-check"></i></div>
+            <h5 class="fw-bold text-dark mb-2">Taxation & Compliance</h5>
+            <p class="text-muted small mb-3">End-to-end statutory working, GST filing routines, and sectional TDS calculations.</p>
+            <div class="d-flex flex-wrap">
+              <span class="skill-tag">TDS Calculation & Compliance</span>
+              <span class="skill-tag">TDS Verification & Deduction</span>
+              <span class="skill-tag">GST Compliance</span>
+              <span class="skill-tag">GSTR-1 Return Preparation</span>
+              <span class="skill-tag">GSTR-3B Preparation</span>
+              <span class="skill-tag">GSTR-2B Reconciliation</span>
+              <span class="skill-tag">GST Reporting</span>
+              <span class="skill-tag">Tax Invoices & Debit/Credit Notes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. ERP & Accounting Software -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-laptop"></i></div>
+            <h5 class="fw-bold text-dark mb-2">ERP & Software Proficiency</h5>
+            <p class="text-muted small mb-3">Hands-on enterprise accounting platforms for procurement, inventory, and book closure.</p>
+            <div class="d-flex flex-wrap">
+              <span class="skill-tag">Odoo Accounting</span>
+              <span class="skill-tag">Tally Prime</span>
+              <span class="skill-tag">Tally ERP 9</span>
+              <span class="skill-tag">Expense Accounting</span>
+              <span class="skill-tag">Purchase & Sales Modules</span>
+              <span class="skill-tag">RFQ Generation</span>
+              <span class="skill-tag">Purchase Order (PO)</span>
+              <span class="skill-tag">Goods Receipt Note (GRN)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Financial Reporting & Analysis -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-graph-up-arrow"></i></div>
+            <h5 class="fw-bold text-dark mb-2">MIS & Financial Analysis</h5>
+            <p class="text-muted small mb-3">Executive-level decision support through structured periodic management information systems.</p>
+            <div class="d-flex flex-wrap">
+              <span class="skill-tag">MIS Reporting</span>
+              <span class="skill-tag">Financial Statement Preparation</span>
+              <span class="skill-tag">Periodic Business Reporting</span>
+              <span class="skill-tag">Ledger Mapping</span>
+              <span class="skill-tag">Ledger Scrutiny</span>
+              <span class="skill-tag">Month-End Closing</span>
+              <span class="skill-tag">Accruals & Provisions</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Advanced Spreadsheets & Office Tools -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-table"></i></div>
+            <h5 class="fw-bold text-dark mb-2">MS Excel & Office Tools</h5>
+            <p class="text-muted small mb-3">Advanced computational techniques for large datasets, multi-entity mapping, and automated models.</p>
+            <div class="d-flex flex-wrap">
+              <span class="skill-tag">VLOOKUP Formulas</span>
+              <span class="skill-tag">Pivot Tables</span>
+              <span class="skill-tag">Nested IF Formulas</span>
+              <span class="skill-tag">Data Filtering & Sorting</span>
+              <span class="skill-tag">Data Analysis & Reporting</span>
+              <span class="skill-tag">MS Word Documentation</span>
+              <span class="skill-tag">MS-CIT Certified</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Payroll & Audit Support -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-clipboard2-check"></i></div>
+            <h5 class="fw-bold text-dark mb-2">Payroll & Audit Support</h5>
+            <p class="text-muted small mb-3">Rigorous audit readiness, statutory ledger scrutiny, vouching, and payroll disbursement.</p>
+            <div class="d-flex flex-wrap">
+              <span class="skill-tag">Payroll & Salary Sheets</span>
+              <span class="skill-tag">Salary Disbursement</span>
+              <span class="skill-tag">Travel & Reimbursement Claims</span>
+              <span class="skill-tag">Statutory Audit Support</span>
+              <span class="skill-tag">Internal Audit Support</span>
+              <span class="skill-tag">Bank Audits & Vouching</span>
+              <span class="skill-tag">Audit Documentation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section class="py-5" id="experience">
+    <div class="container py-4">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <span class="text-uppercase text-secondary fw-bold small tracking-wider">Career History</span>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle mx-auto">Chronological progression of corporate accounting roles and practical contributions.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="timeline">
+            
+            <!-- Experience 1: PHN Technology -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-2">
+                  <div>
+                    <h4 class="fw-bold text-dark mb-1">PHN Technology Pvt. Ltd</h4>
+                    <div class="text-primary fw-semibold">Account Executive</div>
+                  </div>
+                  <div class="text-end">
+                    <span class="badge bg-primary px-3 py-2 rounded-pill">June 2026 – Present</span>
+                    <div class="small text-muted mt-1"><i class="bi bi-geo-alt"></i> Pune, Maharashtra</div>
+                  </div>
+                </div>
+                <hr class="my-3">
+                <ul class="text-muted mb-3 ps-3">
+                  <li class="mb-2">Prepared and maintained <strong>MIS reports</strong> for management review, financial analysis, and periodic business reporting.</li>
+                  <li class="mb-2">Handled complete <strong>TDS working</strong>, including accurate calculation, deduction, verification, and supporting compliance activities.</li>
+                  <li class="mb-2">Performed comprehensive <strong>creditors reconciliation</strong> to verify vendor balances, outstanding invoices, payments, and ledger accuracy.</li>
+                  <li class="mb-2">Executed <strong>debtors reconciliation</strong> to verify customer balances, receipts, outstanding amounts, and ledger correctness.</li>
+                  <li class="mb-2">Prepared monthly <strong>salary sheets</strong> for salary disbursement, including thorough verification of payroll data and salary calculations.</li>
+                  <li class="mb-2">Performed <strong>ledger mapping</strong> to ensure all transactions were accurately posted to appropriate accounts and ledgers.</li>
+                  <li class="mb-2">Worked on <strong>Odoo Accounting</strong> for Expense, Purchase, and Sales Accounting, including procurement activities such as RFQ generation, Purchase Order creation, and Goods Receipt Note (GRN) processing.</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="badge bg-light text-dark border">Odoo Accounting</span>
+                  <span class="badge bg-light text-dark border">MIS Reporting</span>
+                  <span class="badge bg-light text-dark border">TDS Compliance</span>
+                  <span class="badge bg-light text-dark border">Creditors & Debtors</span>
+                  <span class="badge bg-light text-dark border">Payroll Sheets</span>
+                  <span class="badge bg-light text-dark border">Ledger Mapping</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience 2: Lexicon Lifestyle -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-2">
+                  <div>
+                    <h4 class="fw-bold text-dark mb-1">Lexicon Lifestyle Pvt. Ltd. (CITTA Group)</h4>
+                    <div class="text-primary fw-semibold">Account Executive</div>
+                  </div>
+                  <div class="text-end">
+                    <span class="badge bg-secondary px-3 py-2 rounded-pill">July 2025 – May 2026</span>
+                    <div class="small text-muted mt-1"><i class="bi bi-geo-alt"></i> Pune, Maharashtra</div>
+                  </div>
+                </div>
+                <hr class="my-3">
+                <ul class="text-muted mb-3 ps-3">
+                  <li class="mb-2">Managed end-to-end <strong>Procure-to-Pay (P2P/PTP)</strong> and <strong>Accounts Payable (AP)</strong> processes, including invoice verification, PO validation, vendor payments, and payment processing.</li>
+                  <li class="mb-2">Handled <strong>Accounts Receivable (AR)</strong> activities including sales invoicing, customer collections, payment follow-ups, and account reconciliation.</li>
+                  <li class="mb-2">Performed vendor, customer, and bank reconciliations to ensure accurate ledger balances and timely account closure.</li>
+                  <li class="mb-2">Handled <strong>GST compliance</strong>, including GSTR-1 and GSTR-3B preparation, GSTR-2B reconciliation, and GST reporting.</li>
+                  <li class="mb-2">Handled <strong>TDS compliance</strong>, including deduction, payment, and application of applicable TDS sections.</li>
+                  <li class="mb-2">Supported <strong>month-end closing</strong>, including accruals, provisions, reconciliations, and financial reporting.</li>
+                  <li class="mb-2">Managed sales and purchase accounting, including preparation and verification of tax invoices, debit notes, and credit notes.</li>
+                  <li class="mb-2">Processed payroll entries, expense vouchers, and petty cash transactions while maintaining supporting documentation.</li>
+                  <li class="mb-2">Verified employee travel and reimbursement claims and processed payments after approval.</li>
+                  <li class="mb-2">Managed e-commerce accounting activities for <strong>FirstCry</strong> and <strong>Nykaa</strong>.</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="badge bg-light text-dark border">P2P Cycle</span>
+                  <span class="badge bg-light text-dark border">Accounts Payable</span>
+                  <span class="badge bg-light text-dark border">GSTR-1 & 3B</span>
+                  <span class="badge bg-light text-dark border">GSTR-2B Match</span>
+                  <span class="badge bg-light text-dark border">FirstCry & Nykaa</span>
+                  <span class="badge bg-light text-dark border">Month-End Closing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience 3: Anil Mardikar CA -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-2">
+                  <div>
+                    <h4 class="fw-bold text-dark mb-1">Anil Mardikar & Chartered Accountants</h4>
+                    <div class="text-primary fw-semibold">Account Assistant</div>
+                  </div>
+                  <div class="text-end">
+                    <span class="badge bg-secondary px-3 py-2 rounded-pill">Oct 2023 – June 2025</span>
+                    <div class="small text-muted mt-1"><i class="bi bi-geo-alt"></i> Ahilyanagar, Maharashtra</div>
+                  </div>
+                </div>
+                <hr class="my-3">
+                <ul class="text-muted mb-3 ps-3">
+                  <li class="mb-2">Performed <strong>ledger scrutiny</strong> and verified the accuracy and completeness of financial records.</li>
+                  <li class="mb-2">Assisted with <strong>GST return preparation and filing</strong>, including GSTR-1 and GSTR-3B, along with reconciliation activities.</li>
+                  <li class="mb-2">Conducted <strong>bank audits</strong>, including vouching, verification, documentation, and reporting.</li>
+                  <li class="mb-2">Assisted in <strong>financial statement preparation</strong> and accounting records through ledger review and transaction verification.</li>
+                  <li class="mb-2">Performed bank, vendor, and customer reconciliations to identify and resolve differences.</li>
+                  <li class="mb-2">Assisted in month-end accounting and reporting activities, including accruals and provisions.</li>
+                  <li class="mb-2">Managed sales and purchase accounting, including verification of tax invoices, debit notes, and credit notes.</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="badge bg-light text-dark border">Bank Audits</span>
+                  <span class="badge bg-light text-dark border">Ledger Scrutiny</span>
+                  <span class="badge bg-light text-dark border">Vouching & Verification</span>
+                  <span class="badge bg-light text-dark border">Financial Statements</span>
+                  <span class="badge bg-light text-dark border">GST Filing</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY PROJECTS / ACCOUNTING ENGAGEMENTS SECTION -->
+  <section class="py-5 bg-white border-top border-bottom" id="projects">
+    <div class="container py-4">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <span class="text-uppercase text-secondary fw-bold small tracking-wider">Key Engagements</span>
+          <h2 class="section-title">Operational Case Studies & Projects</h2>
+          <p class="section-subtitle mx-auto">Core financial workflows, compliance implementations, and accounting processes executed directly.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Procurement & AP</span>
+              <span class="small text-muted">Lexicon Lifestyle</span>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">End-to-End P2P & AP Process Management</h5>
+            <p class="text-muted small mb-3 flex-grow-1">
+              Led complete Procure-to-Pay workflow including 3-way matching, PO validation, invoice verification, approval routing, and vendor disbursement.
+            </p>
+            <div class="mb-3">
+              <div class="small fw-semibold text-secondary mb-1">Key Deliverables:</div>
+              <ul class="text-muted small ps-3 mb-0">
+                <li>Invoice & PO cross-verification</li>
+                <li>Timely vendor settlement schedules</li>
+                <li>Accurate AP ledger reconciliation</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top">
+              <span class="badge bg-light text-secondary border">P2P</span>
+              <span class="badge bg-light text-secondary border">AP Invoicing</span>
+              <span class="badge bg-light text-secondary border">Vendor Ledger</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle">E-Commerce</span>
+              <span class="small text-muted">FirstCry & Nykaa</span>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Marketplace E-Commerce Accounting</h5>
+            <p class="text-muted small mb-3 flex-grow-1">
+              Managed specialized e-commerce revenue and receivable tracking for high-volume orders across FirstCry and Nykaa digital retail portals.
+            </p>
+            <div class="mb-3">
+              <div class="small fw-semibold text-secondary mb-1">Key Deliverables:</div>
+              <ul class="text-muted small ps-3 mb-0">
+                <li>Sales invoice & payment reconciliation</li>
+                <li>Marketplace deduction validation</li>
+                <li>Settlement statement verification</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top">
+              <span class="badge bg-light text-secondary border">E-Commerce</span>
+              <span class="badge bg-light text-secondary border">AR Collections</span>
+              <span class="badge bg-light text-secondary border">Reconciliation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success-subtle text-success-emphasis border border-success-subtle">Management Reporting</span>
+              <span class="small text-muted">PHN Technology</span>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Executive MIS Reporting Architecture</h5>
+            <p class="text-muted small mb-3 flex-grow-1">
+              Designed structured periodic MIS reports providing executive leadership with actionable visibility on operational costs, cash flow, and departmental spends.
+            </p>
+            <div class="mb-3">
+              <div class="small fw-semibold text-secondary mb-1">Key Deliverables:</div>
+              <ul class="text-muted small ps-3 mb-0">
+                <li>Periodic financial analysis sheets</li>
+                <li>Advanced Excel models with Pivot/VLOOKUP</li>
+                <li>Expense variance identification</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top">
+              <span class="badge bg-light text-secondary border">MIS Reports</span>
+              <span class="badge bg-light text-secondary border">Advanced Excel</span>
+              <span class="badge bg-light text-secondary border">Financial Review</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle">Statutory Compliance</span>
+              <span class="small text-muted">GST & TDS</span>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Multi-Tier GST & TDS Compliance</h5>
+            <p class="text-muted small mb-3 flex-grow-1">
+              Executed statutory compliance filings including GSTR-1, GSTR-3B, GSTR-2B Input Tax Credit (ITC) reconciliation, and sectional TDS deductions.
+            </p>
+            <div class="mb-3">
+              <div class="small fw-semibold text-secondary mb-1">Key Deliverables:</div>
+              <ul class="text-muted small ps-3 mb-0">
+                <li>GSTR-2B vs purchase register matching</li>
+                <li>Timely tax challan verification & deposit</li>
+                <li>Debit note / Credit note tax adjustments</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top">
+              <span class="badge bg-light text-secondary border">GSTR-1 & 3B</span>
+              <span class="badge bg-light text-secondary border">GSTR-2B</span>
+              <span class="badge bg-light text-secondary border">TDS Sections</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-primary-subtle text-primary border border-primary-subtle">ERP Implementation</span>
+              <span class="small text-muted">Odoo Platform</span>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Odoo ERP Procurement & Accounting Workflow</h5>
+            <p class="text-muted small mb-3 flex-grow-1">
+              Configured and operated Odoo modules for Expense, Purchase, and Sales Accounting, streamlining the procurement cycle.
+            </p>
+            <div class="mb-3">
+              <div class="small fw-semibold text-secondary mb-1">Key Deliverables:</div>
+              <ul class="text-muted small ps-3 mb-0">
+                <li>RFQ generation & Purchase Order creation</li>
+                <li>Goods Receipt Note (GRN) posting</li>
+                <li>Chart of accounts & ledger mapping</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top">
+              <span class="badge bg-light text-secondary border">Odoo ERP</span>
+              <span class="badge bg-light text-secondary border">RFQ & PO</span>
+              <span class="badge bg-light text-secondary border">GRN Processing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-secondary-subtle text-secondary-emphasis border border-secondary-subtle">Audit & Verification</span>
+              <span class="small text-muted">Anil Mardikar CA</span>
+            </div>
+            <h5 class="fw-bold text-dark mb-2">Bank Audits & Ledger Scrutiny Engagement</h5>
+            <p class="text-muted small mb-3 flex-grow-1">
+              Conducted exhaustive bank audits, transactional vouching, and financial statement verification for corporate and institutional clients.
+            </p>
+            <div class="mb-3">
+              <div class="small fw-semibold text-secondary mb-1">Key Deliverables:</div>
+              <ul class="text-muted small ps-3 mb-0">
+                <li>Complete vouching & verification of bills</li>
+                <li>Ledger scrutiny to detect discrepancies</li>
+                <li>Assistance in final financial statements</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-wrap gap-1 pt-2 border-top">
+              <span class="badge bg-light text-secondary border">Bank Audit</span>
+              <span class="badge bg-light text-secondary border">Vouching</span>
+              <span class="badge bg-light text-secondary border">Ledger Review</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & QUALIFICATIONS SECTION -->
+  <section class="py-5" id="education">
+    <div class="container py-4">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <span class="text-uppercase text-secondary fw-bold small tracking-wider">Academic Background</span>
+          <h2 class="section-title">Education & Qualifications</h2>
+          <p class="section-subtitle mx-auto">Formal academic foundations in financial management, cost accounting, and cooperative finance.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Education 1: MBA -->
+        <div class="col-md-6">
+          <div class="feature-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-primary px-3 py-1 rounded-pill">Aug 2023 – May 2025</span>
+              <span class="text-muted small fw-semibold">Master's Degree</span>
+            </div>
+            <h4 class="fw-bold text-dark mb-1">Master of Business Administration (MBA) – Finance</h4>
+            <div class="text-primary fw-semibold mb-2">IMSCDR, Ahilyanagar</div>
+            <p class="text-muted small mb-0">
+              Specialized postgraduate program focusing on corporate finance, managerial accounting, taxation, portfolio evaluation, and business strategy.
+            </p>
+          </div>
+        </div>
+
+        <!-- Education 2: B.Com -->
+        <div class="col-md-6">
+          <div class="feature-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-secondary px-3 py-1 rounded-pill">Jun 2020 – Apr 2023</span>
+              <span class="text-muted small fw-semibold">Bachelor's Degree</span>
+            </div>
+            <h4 class="fw-bold text-dark mb-1">Bachelor of Commerce (B.Com) – Cost & Works Accounting</h4>
+            <div class="text-primary fw-semibold mb-2">New Arts, Commerce & Science College, Shevgaon</div>
+            <p class="text-muted small mb-0">
+              Comprehensive undergraduate study in cost accounting, financial management, commercial laws, auditing standards, and business economics.
+            </p>
+          </div>
+        </div>
+
+        <!-- Education 3: G.D.C.&A. -->
+        <div class="col-md-6">
+          <div class="feature-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-1 rounded-pill">Completed</span>
+              <span class="text-muted small fw-semibold">Government Diploma</span>
+            </div>
+            <h4 class="fw-bold text-dark mb-1">G.D.C.&A. – Government Diploma in Cooperation & Accountancy</h4>
+            <div class="text-primary fw-semibold mb-2">Maharashtra State</div>
+            <p class="text-muted small mb-0">
+              Certified government diploma emphasizing cooperative society accounting, regulatory compliance, auditing guidelines, and state cooperative laws.
+            </p>
+          </div>
+        </div>
+
+        <!-- Education 4: HSC -->
+        <div class="col-md-6">
+          <div class="feature-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle px-3 py-1 rounded-pill">Completed</span>
+              <span class="text-muted small fw-semibold">Higher Secondary</span>
+            </div>
+            <h4 class="fw-bold text-dark mb-1">Higher Secondary Certificate (HSC)</h4>
+            <div class="text-primary fw-semibold mb-2">Maharashtra State Board</div>
+            <p class="text-muted small mb-0">
+              Foundational secondary education with a focus on commerce, fundamentals of bookkeeping, and mathematics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS & SOFTWARE PROFICIENCY SECTION -->
+  <section class="py-5 bg-white border-top border-bottom" id="certifications">
+    <div class="container py-4">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <span class="text-uppercase text-secondary fw-bold small tracking-wider">Credentials</span>
+          <h2 class="section-title">Certifications & Software Proficiency</h2>
+          <p class="section-subtitle mx-auto">Practical software capabilities documented and certified on resume.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- 1. Tally -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-journal-bookmark"></i></div>
+            <h5 class="fw-bold text-dark mb-2">Tally ERP 9 / Tally Prime</h5>
+            <p class="text-muted small mb-0">
+              Practical knowledge of accounting, financial reporting, taxation, ledger management, and voucher processing.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Odoo -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-gear-wide-connected"></i></div>
+            <h5 class="fw-bold text-dark mb-2">Odoo Accounting</h5>
+            <p class="text-muted small mb-0">
+              Practical experience in Expense, Purchase, and Sales Accounting, including RFQ, Purchase Order (PO), and Goods Receipt Note (GRN) processing.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3. MS Excel -->
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-file-earmark-spreadsheet"></i></div>
+            <h5 class="fw-bold text-dark mb-2">MS Excel</h5>
+            <p class="text-muted small mb-0">
+              Practical knowledge of VLOOKUP, Pivot Tables, IF formulas, data analysis, filtering, and MIS reporting.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4. MS Word -->
+        <div class="col-md-6 col-lg-6">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-file-earmark-word"></i></div>
+            <h5 class="fw-bold text-dark mb-2">MS Word</h5>
+            <p class="text-muted small mb-0">
+              Practical knowledge of document preparation, formatting, tables, and professional business documentation.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5. MS-CIT -->
+        <div class="col-md-6 col-lg-6">
+          <div class="feature-card">
+            <div class="icon-badge"><i class="bi bi-award"></i></div>
+            <h5 class="fw-bold text-dark mb-2">MS – CIT Certification</h5>
+            <p class="text-muted small mb-0">
+              Official certification in computer fundamentals, MS Office suite, internet usage, and basic computer applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="py-5" id="contact">
+    <div class="container py-4">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <span class="text-uppercase text-secondary fw-bold small tracking-wider">Get In Touch</span>
+          <h2 class="section-title">Contact Information</h2>
+          <p class="section-subtitle mx-auto">Open to full-time opportunities, corporate roles, and professional accounting inquiries.</p>
+        </div>
+      </div>
+
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <h4 class="fw-bold text-dark mb-3">Direct Contact Details</h4>
+          <p class="text-muted small mb-4">
+            Feel free to reach out directly via email, phone, or LinkedIn. I look forward to discussing how my experience in MIS reporting and accounts management can add value to your team.
+          </p>
+
+          <a href="mailto:Sopanbkale101@gmail.com" class="contact-card">
+            <div class="icon-badge mb-0" style="width:48px;height:48px;"><i class="bi bi-envelope"></i></div>
+            <div class="text-break">
+              <div class="text-muted small fw-semibold">Email Address</div>
+              <div class="fw-bold text-dark">Sopanbkale101@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="tel:+918554909166" class="contact-card">
+            <div class="icon-badge mb-0" style="width:48px;height:48px;"><i class="bi bi-telephone"></i></div>
+            <div>
+              <div class="text-muted small fw-semibold">Phone Number</div>
+              <div class="fw-bold text-dark">+91 8554909166</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/sopan-baban37b919292/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="icon-badge mb-0" style="width:48px;height:48px;"><i class="bi bi-linkedin"></i></div>
+            <div>
+              <div class="text-muted small fw-semibold">LinkedIn Profile</div>
+              <div class="fw-bold text-dark">linkedin.com/in/sopan-baban</div>
+            </div>
+          </a>
+
+          <div class="contact-card">
+            <div class="icon-badge mb-0" style="width:48px;height:48px;"><i class="bi bi-geo-alt"></i></div>
+            <div>
+              <div class="text-muted small fw-semibold">Current Location</div>
+              <div class="fw-bold text-dark">Shevgaon Dist. Ahilyanagar – 414502</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="feature-card shadow-sm">
+            <h4 class="fw-bold text-dark mb-3">Send a Direct Message</h4>
+            <div id="contactAlert" class="alert alert-success d-none mb-3" role="alert">
+              <i class="bi bi-check-circle-fill me-2"></i> Thank you! Your message has been prepared. You can also contact directly at <strong>Sopanbkale101@gmail.com</strong>.
+            </div>
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label small fw-semibold">Your Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="contactName" placeholder="e.g. John Doe" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label small fw-semibold">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="contactEmail" placeholder="e.g. name@company.com" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactSubject" class="form-label small fw-semibold">Subject / Purpose <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="contactSubject" placeholder="e.g. Account Executive Opportunity at [Company]" required>
+                  <div class="invalid-feedback">Please provide a subject.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label small fw-semibold">Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="contactMessage" rows="4" placeholder="Write your message here..." required></textarea>
+                  <div class="invalid-feedback">Please write a message.</div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary-custom w-100 py-3">
+                    <i class="bi bi-send me-1"></i> Send Inquiry
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME PREVIEW & PRINT MODAL -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header border-bottom">
+          <h5 class="modal-title fw-bold" id="resumeModalLabel">
+            <i class="bi bi-file-earmark-person text-primary me-2"></i> Sopan Kale - Professional Resume
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4" id="resumePrintArea">
+          <div class="text-center pb-3 border-bottom mb-4">
+            <h2 class="fw-bold mb-1">Sopan Kale</h2>
+            <div class="h5 text-primary fw-semibold mb-2">Account Executive</div>
+            <div class="text-muted small">
+              <span>+91 8554909166</span> &bull; 
+              <span>Sopanbkale101@gmail.com</span> &bull; 
+              <span>Shevgaon Dist. Ahilyanagar – 414502</span>
+            </div>
+            <div class="small mt-1">
+              <a href="https://www.linkedin.com/in/sopan-baban37b919292/" target="_blank" class="text-primary text-decoration-none">
+                linkedin.com/in/sopan-baban
+              </a>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h6 class="fw-bold text-uppercase text-secondary border-bottom pb-1">Professional Summary</h6>
+            <p class="small text-muted mb-0">
+              Accounts Executive with 3 years of experience in MIS Reporting, TDS Working, Accounts Payable (AP), Accounts Receivable (AR), Creditors & Debtors Reconciliation, Bank Reconciliation, Payroll & Salary Sheet Preparation, Ledger Mapping, GST Compliance, Procure-to-Pay (P2P/PTP), and Month-End Closing. Experienced in payment processing, vendor and customer account reconciliation, financial reporting, ledger management, and audit documentation. Proficient in Odoo Accounting, Tally Prime, Tally ERP 9, and MS Excel including VLOOKUP, Pivot Tables, IF formulas, data filtering, and reporting functions.
+            </p>
+          </div>
+
+          <div class="mb-4">
+            <h6 class="fw-bold text-uppercase text-secondary border-bottom pb-1">Work Experience</h6>
+            
+            <div class="mb-3">
+              <div class="d-flex justify-content-between small fw-bold">
+                <span>PHN Technology Pvt. Ltd, Pune — Account Executive</span>
+                <span class="text-muted">June 2026 – Present</span>
+              </div>
+              <ul class="small text-muted ps-3 mb-0">
+                <li>Prepared and maintained MIS reports for management review, financial analysis, and periodic business reporting.</li>
+                <li>Handled TDS working, including calculation, deduction, verification, and supporting compliance activities.</li>
+                <li>Performed creditors reconciliation to verify vendor balances, outstanding invoices, payments, and ledger accuracy.</li>
+                <li>Performed debtors reconciliation to verify customer balances, receipts, outstanding amounts, and ledger accuracy.</li>
+                <li>Prepared monthly salary sheets for salary disbursement, including verification of payroll data and salary calculations.</li>
+                <li>Performed ledger mapping to ensure transactions were accurately posted to appropriate accounts and ledgers.</li>
+                <li>Worked on Odoo Accounting for Expense, Purchase and Sales Accounting, including procurement activities such as RFQ generation, Purchase Order creation, and Goods Receipt Note (GRN) processing.</li>
+              </ul>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between small fw-bold">
+                <span>Lexicon Lifestyle Pvt. Ltd. (CITTA Group) Pune — Account Executive</span>
+                <span class="text-muted">July 2025 – May 2026</span>
+              </div>
+              <ul class="small text-muted ps-3 mb-0">
+                <li>Managed end-to-end Procure-to-Pay (P2P/PTP) and Accounts Payable (AP) processes, including invoice verification, PO validation, vendor payments, and payment processing.</li>
+                <li>Handled Accounts Receivable (AR) activities including sales invoicing, customer collections, payment follow-ups, and account reconciliation.</li>
+                <li>Performed vendor, customer, and bank reconciliations to ensure accurate ledger balances and timely account closure.</li>
+                <li>Handled GST compliance, including GSTR-1 and GSTR-3B preparation, GSTR-2B reconciliation, and GST reporting.</li>
+                <li>Handled TDS compliance, including deduction, payment, and application of applicable TDS sections.</li>
+                <li>Supported month-end closing, including accruals, provisions, reconciliations, and financial reporting.</li>
+                <li>Managed sales and purchase accounting, including preparation and verification of tax invoices, debit notes, and credit notes.</li>
+                <li>Processed payroll entries, expense vouchers, and petty cash transactions while maintaining supporting documentation.</li>
+                <li>Verified employee travel and reimbursement claims and processed payments after approval.</li>
+                <li>Managed e-commerce accounting activities for FirstCry and Nykaa.</li>
+              </ul>
+            </div>
+
+            <div class="mb-2">
+              <div class="d-flex justify-content-between small fw-bold">
+                <span>Anil Mardikar & Chartered Accountants, Ahilyanagar — Account Assistant</span>
+                <span class="text-muted">Oct 2023 – June 2025</span>
+              </div>
+              <ul class="small text-muted ps-3 mb-0">
+                <li>Performed ledger scrutiny and verified the accuracy and completeness of financial records.</li>
+                <li>Assisted with GST return preparation and filing, including GSTR-1 and GSTR-3B, along with reconciliation activities.</li>
+                <li>Conducted bank audits, including vouching, verification, documentation, and reporting.</li>
+                <li>Assisted in financial statement preparation and accounting records through ledger review and transaction verification.</li>
+                <li>Performed bank, vendor, and customer reconciliations to identify and resolve differences.</li>
+                <li>Assisted in month-end accounting and reporting activities, including accruals and provisions.</li>
+                <li>Managed sales and purchase accounting, including verification of tax invoices, debit notes, and credit notes.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h6 class="fw-bold text-uppercase text-secondary border-bottom pb-1">Education</h6>
+            <div class="small mb-2">
+              <div class="d-flex justify-content-between fw-bold">
+                <span>Master of Business Administration (MBA) – Finance</span>
+                <span class="text-muted">Aug 2023 – May 2025</span>
+              </div>
+              <div class="text-muted">IMSCDR, Ahilyanagar</div>
+            </div>
+            <div class="small mb-2">
+              <div class="d-flex justify-content-between fw-bold">
+                <span>Bachelor of Commerce (B.Com) – Cost & Works Accounting</span>
+                <span class="text-muted">Jun 2020 – Apr 2023</span>
+              </div>
+              <div class="text-muted">New Arts, Commerce & Science College, Shevgaon</div>
+            </div>
+            <div class="small mb-2">
+              <div class="d-flex justify-content-between fw-bold">
+                <span>G.D.C.&A. – Government Diploma in Cooperation & Accountancy</span>
+                <span class="text-muted">Completed</span>
+              </div>
+              <div class="text-muted">Maharashtra State</div>
+            </div>
+            <div class="small">
+              <div class="d-flex justify-content-between fw-bold">
+                <span>Higher Secondary Certificate (HSC)</span>
+                <span class="text-muted">Completed</span>
+              </div>
+              <div class="text-muted">Maharashtra State Board</div>
+            </div>
+          </div>
+
+          <div>
+            <h6 class="fw-bold text-uppercase text-secondary border-bottom pb-1">Technical Skills & Software</h6>
+            <p class="small text-muted mb-0">
+              Accounts Payable (AP) & Accounts Receivable (AR), Procure-to-Pay (P2P/PTP), MIS Reporting & Financial Reporting, Creditors & Debtors Reconciliation, Bank Reconciliation, TDS Working & Compliance, GST Compliance (GSTR-1, 3B, 2B), Odoo Accounting, Tally Prime / ERP 9, Payroll & Salary Sheets, Ledger Mapping & Scrutiny, MS Excel (VLOOKUP, Pivot Tables, IF), MS Word, MS-CIT Certified.
+            </p>
+          </div>
+        </div>
+        <div class="modal-footer border-top d-flex justify-content-between">
+          <div class="small text-muted">Direct representation from official resume.</div>
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-outline-secondary" onclick="window.print()">
+              <i class="bi bi-printer me-1"></i> Print / Save as PDF
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-dark text-white border-top border-secondary">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="fw-bold fs-5">Sopan Kale</div>
+          <div class="small text-secondary">Accounts Executive | Finance Operations Specialist</div>
+          <div class="small text-muted mt-1">&copy; <span id="currentYear">2026</span> Sopan Kale. All rights reserved.</div>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="small text-muted mb-2">Built with HTML5, CSS3, Bootstrap 5 & JavaScript</div>
+          <div class="d-flex justify-content-center justify-content-md-end gap-3">
+            <a href="https://www.linkedin.com/in/sopan-baban37b919292/" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-none">
+              <i class="bi bi-linkedin fs-5"></i>
+            </a>
+            <a href="mailto:Sopanbkale101@gmail.com" class="text-white text-decoration-none">
+              <i class="bi bi-envelope-fill fs-5"></i>
+            </a>
+            <a href="tel:+918554909166" class="text-white text-decoration-none">
+              <i class="bi bi-telephone-fill fs-5"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button type="button" class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    // Set dynamic current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Navbar scroll background effect & Scroll to top visibility
+    const navbar = document.getElementById('mainNavbar');
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+
+      if (window.scrollY > 300) {
+        scrollTopBtn.classList.add('visible');
+      } else {
+        scrollTopBtn.classList.remove('visible');
+      }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Close mobile menu on nav link click
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    const navbarCollapse = document.getElementById('navbarContent');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (navbarCollapse.classList.contains('show')) {
+          const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+          if (bsCollapse) bsCollapse.hide();
+        }
+      });
+    });
+
+    // Contact Form Validation & Submission
+    const contactForm = document.getElementById('contactForm');
+    const contactAlert = document.getElementById('contactAlert');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (!contactForm.checkValidity()) {
+          contactForm.classList.add('was-validated');
+          return;
+        }
+
+        // Show professional success message
+        contactAlert.classList.remove('d-none');
+        contactForm.reset();
+        contactForm.classList.remove('was-validated');
+
+        // Scroll alert into view smoothly
+        contactAlert.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+        setTimeout(() => {
+          contactAlert.classList.add('d-none');
+        }, 7000);
+      });
+    }
+  </script>
+</body>
+</html>
